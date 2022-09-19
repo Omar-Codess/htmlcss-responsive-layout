@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 
 /* MAIN */
 /* HEADER */
@@ -34,4 +38,30 @@
 
 .big{
     height: 350px;
+}
+
+
+/* UTILITIES */
+/* palette */
+.violet{
+    background-color: #9593e6;
+}
+
+.white{
+    background-color: white;
+}
+
+
+/* margin-padding */
+.mt{
+    margin-top: 1em;
+}
+
+.mb{
+    margin-bottom: 1em;
+}
+
+/* border */
+.border{
+    border: solid 1px black;
 }
