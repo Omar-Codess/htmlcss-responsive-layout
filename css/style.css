@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+/* MAIN */
 /* HEADER */
 .header{
     height: 60px;
@@ -12,5 +14,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1em;
+    padding: 0 1rem;
+    margin-bottom: 1em;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 200px;
+    width: 90%;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    background-color: #b5ddff;
+}
+
+.big{
+    height: 350px;
 }
