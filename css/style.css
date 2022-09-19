@@ -18,7 +18,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 2.7rem;
     margin-bottom: 1em;
 }
 
@@ -29,19 +29,21 @@ img{
 }
 
 .card{
-    height: 300px;
-    width: 90%;
+    height: 400px;
+    width: 340px;
     margin-bottom: 1em;
     border-radius: 40px;
     background-color: #b5ddff;
 }
 
 .big{
-    height: 450px;
+    height: 550px;
+    width: 340px;
 }
 
 .very-big{
-    height: 550px;
+    height: 650px;
+    width: 340px;
 }
 
 .img-circle{
