@@ -12,14 +12,23 @@ img{
 
 /* MAIN */
 /* HEADER */
+.container{
+    max-width: 1200px;
+}
+
 .header{
     height: 60px;
     background-color: #0084fd;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container{
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.7rem;
-    margin-bottom: 1em;
+    width: 90%;
 }
 
 .cards{
@@ -59,7 +68,7 @@ img{
 
 .footer-card{
     height: 200px;
-    width: 90%;
+    width: 340px;
     border:solid 1px white ;
 }
 
@@ -99,4 +108,42 @@ img{
 
 .align-center{
     align-items: center;
+}
+
+/* tablet 768px */
+@media screen and (min-width: 768px){
+   
+    .tablet{
+        height: 550px;
+    }
+
+    .first-col{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1em;
+    }
+
+    #first-card{
+        width: calc(90% / 3 * 2);
+        height: 550px;
+    }
+
+    #second-card{
+        width: calc(90% / 3);
+        height: 550px;
+    }
+
+    .second-col{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1em;
+    }
+
+    .second-col .card{
+        width: calc(90% / 3);
+    }
 }
