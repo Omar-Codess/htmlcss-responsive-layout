@@ -29,20 +29,24 @@ img{
 }
 
 .card{
-    height: 200px;
+    height: 300px;
     width: 90%;
     margin-bottom: 1em;
-    border-radius: 20px;
+    border-radius: 40px;
     background-color: #b5ddff;
 }
 
 .big{
-    height: 350px;
+    height: 450px;
+}
+
+.very-big{
+    height: 550px;
 }
 
 .img-circle{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
 /* UTILITIES */
