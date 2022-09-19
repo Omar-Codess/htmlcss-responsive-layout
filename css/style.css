@@ -49,6 +49,18 @@ img{
     width: 150px;
     border-radius: 50%;
 }
+
+.footer{
+    background-color: #333333;
+    height: 250px;
+}
+
+.footer-card{
+    height: 200px;
+    width: 90%;
+    border:solid 1px white ;
+}
+
 /* UTILITIES */
 /* palette */
 .violet{
