@@ -4,3 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+header{
+    background-color: #0084fd;
+    display: flex;
+    justify-content: space-between;
+}
