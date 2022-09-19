@@ -40,7 +40,11 @@ img{
     height: 350px;
 }
 
-
+.img-circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 /* UTILITIES */
 /* palette */
 .violet{
@@ -64,4 +68,17 @@ img{
 /* border */
 .border{
     border: solid 1px black;
+}
+
+/* flex */
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
 }
