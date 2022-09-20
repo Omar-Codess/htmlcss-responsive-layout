@@ -146,4 +146,8 @@ img{
     .second-col .card{
         width: calc(90% / 3);
     }
+
+    .width{
+        width: 90%;
+    }
 }
