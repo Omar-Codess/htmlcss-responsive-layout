@@ -162,7 +162,7 @@ img{
         align-items: center;
     }
 
-    .fourth{
+    .gap-1{
         gap: 1em;
     }
 
@@ -172,5 +172,10 @@ img{
 
     .big-mt{
         margin-top: 8.5em;
+    }
+
+    #sec-5-circle{
+        display: flex;
+        justify-content: center;
     }
 }
