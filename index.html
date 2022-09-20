@@ -12,6 +12,9 @@
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" 
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
     <title>Responsive Layout</title>
 </head>
 <body>
@@ -23,6 +26,13 @@
                 <div class="header-container">
                     <img src="img/logo.png" alt="logo">
                     <i class="fa-solid fa-bars"></i>
+                    <ul>
+                        <li>Planning</li>
+                        <li>Testimonials</li>
+                        <li>Features</li>
+                        <li>About us</li>
+                        <li id="get-started">Get started</li>
+                    </ul>
                 </div> 
             </div>
             <div class="row">
@@ -44,9 +54,9 @@
         <!-- second-section -->
         <section class="container">
             <div class="row">
-                <div class="cards violet">
-                    <div class="card mt border violet big width-90"></div>
-                    <div class="card white big width-90"></div>
+                <div class="cards violet gap-1">
+                    <div id="first-card-second-section" class="card mt border violet big width-90"></div>
+                    <div id="second-card-second-section" class="card white big width-90"></div>
                 </div>
             </div>
         </section>
