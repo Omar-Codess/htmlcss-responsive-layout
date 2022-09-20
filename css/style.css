@@ -147,7 +147,17 @@ img{
         width: calc(90% / 3);
     }
 
-    .width{
+    .width-90{
         width: 90%;
+    }
+
+    .img-circle{
+        height: 250px;
+        width: 250px;
+        margin-left: 1em;
+    }
+    .flex-start{
+        justify-content: flex-start;
+        align-items: center;
     }
 }
