@@ -156,8 +156,21 @@ img{
         width: 250px;
         margin-left: 1em;
     }
+
     .flex-start{
         justify-content: flex-start;
         align-items: center;
+    }
+
+    .fourth{
+        gap: 1em;
+    }
+
+    .mt-768{
+        margin-top: 1em;
+    }
+
+    .big-mt{
+        margin-top: 8.5em;
     }
 }
