@@ -14,6 +14,8 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 /* MAIN */
+
+
 ul{
     list-style-type: none;
     display: flex;
@@ -187,6 +189,7 @@ li{
     .gap-1{
         gap: 1em;
     }
+    
 
     .mt-768{
         margin-top: 1em;
@@ -199,6 +202,10 @@ li{
     #sec-5-circle{
         display: flex;
         justify-content: center;
+    }
+
+    #margin-top{
+        margin-top: 1em;
     }
 }
 
@@ -222,4 +229,17 @@ li{
         width: calc(90% / 2 - 1em);
         margin-top: 1em;
     }
+
+    .row-3-cards{
+        width: 90%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .card-992{
+        width: calc(100% / 3 - 1em);
+        height: 400px;
+    }
+
+    
 }
