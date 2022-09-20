@@ -189,7 +189,7 @@ li{
     .gap-1{
         gap: 1em;
     }
-    
+
 
     .mt-768{
         margin-top: 1em;
@@ -241,5 +241,15 @@ li{
         height: 400px;
     }
 
-    
+    .width-992-text{
+        width: calc(60% - 1em);
+    }
+
+    .width-992-image{
+        width: calc(30% - 1em);
+    }
+
+    .width600{
+        width: 600px;
+    }
 }
