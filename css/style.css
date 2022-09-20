@@ -27,6 +27,16 @@ html{
     margin-left: 1em;
 }
 
+.pad-1{
+    padding: .5em;
+}
+
+.sec-1-icon{
+    font-size: 6em;
+    color: #0084fd;
+    margin-top: .3em;
+}
+
 .blue-button{
     padding-left: 2em;
     padding-right: 2em;
@@ -55,6 +65,7 @@ html{
 .fa-regular.fa-file-code{
     font-size: 6em;
     color: #0084fd;
+    margin-top: .3em;
 }
 
 i{
